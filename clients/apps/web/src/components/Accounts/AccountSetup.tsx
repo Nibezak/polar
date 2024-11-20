@@ -60,7 +60,7 @@ export const AccountSetup: React.FC<AccoutSetupProps> = ({
     const link = await api.accounts.dashboardLink({
       id: account.id,
     })
-    window.open(link.url, '_blank');
+    window.open(link.url, '_blank')
   }
 
   return (
@@ -69,7 +69,7 @@ export const AccountSetup: React.FC<AccoutSetupProps> = ({
         <div className="flex flex-col gap-y-2">
           <h2 className="text-lg font-medium">Payout account</h2>
           <p className="dark:text-polar-500 text-sm text-gray-500">
-            Account where you can receive money transfers from Polar
+            Account where you can receive money transfers from Payflow
           </p>
         </div>
       </div>

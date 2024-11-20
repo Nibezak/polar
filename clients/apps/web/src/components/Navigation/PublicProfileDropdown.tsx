@@ -103,13 +103,13 @@ const PublicProfileDropdown = ({
                 href={`${CONFIG.FRONTEND_BASE_URL}/finance`}
                 icon={<AttachMoneyOutlined fontSize="inherit" />}
               >
-                <span className="mx-2 text-sm">Finance</span>
+                <span className="mx-2 text-sm">Account</span>
               </LinkItem>
               <LinkItem
                 href={`${CONFIG.FRONTEND_BASE_URL}/settings`}
                 icon={<Face fontSize="inherit" />}
               >
-                <span className="mx-2 text-sm">Account</span>
+                <span className="mx-2 text-sm">Settings  </span>
               </LinkItem>
 
               <Separator className="my-2" />

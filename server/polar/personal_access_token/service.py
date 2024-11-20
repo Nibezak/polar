@@ -24,7 +24,7 @@ from .schemas import PersonalAccessTokenCreate
 
 log: Logger = structlog.get_logger()
 
-TOKEN_PREFIX = "polar_pat_"
+TOKEN_PREFIX = "payflow_pat_"
 
 
 class PersonalAccessTokenService(ResourceServiceReader[PersonalAccessToken]):

@@ -21,7 +21,7 @@ const Footer = ({ wide }: { wide?: boolean }) => {
             <BrandingMenu logoVariant="logotype" size={120} />
           </span>
           <span className="dark:text-polar-500 w-full flex-grow text-gray-500">
-            &copy; Polar Software Inc. {new Date().getFullYear()}
+            &copy; Payflow Software. {new Date().getFullYear()}
           </span>
         </div>
         <div

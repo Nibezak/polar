@@ -148,7 +148,7 @@ export default function ClientPage({
               <div className="flex flex-col items-center gap-y-2">
                 <h3 className="text-lg font-medium">No products found</h3>
                 <p className="dark:text-polar-500 text-gray-500">
-                  Start selling digital products today
+                  Start selling today
                 </p>
               </div>
               <Link href={`/dashboard/${org.slug}/products/new`}>

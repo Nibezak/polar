@@ -44,7 +44,7 @@ const PurchaseSidebar: React.FC<React.PropsWithChildren<{}>> = ({
       <div className="flex flex-col gap-y-2">
         <h2 className="text-lg font-medium">Library</h2>
         <p className="dark:text-polar-500 text-sm text-gray-500">
-          Your purchases, subscriptions & funded issues
+          Your purchases & subscriptions.
         </p>
       </div>
       <div className="flex flex-col gap-y-3">
@@ -58,11 +58,6 @@ const PurchaseSidebar: React.FC<React.PropsWithChildren<{}>> = ({
               Subscriptions
             </span>
             <span>{subscriptions?.pagination.total_count || 0}</span>
-          </PurchaseLink>
-          <PurchaseLink href="/funding">
-            <span className="flex flex-row items-center gap-x-2">
-              Funded Issues
-            </span>
           </PurchaseLink>
         </div>
       </div>

@@ -24,7 +24,7 @@ class TestCreate:
             "",
             "a",
             "ab",
-            "Polar Software Inc 🌀",
+            "Payflow Software 🌀",
             "slug/with/slashes",
             *settings.ORGANIZATION_SLUG_RESERVED_KEYWORDS,
         ],

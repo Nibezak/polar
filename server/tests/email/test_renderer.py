@@ -5,7 +5,7 @@ email_renderer = EmailRenderer()
 
 def test_render_from_string() -> None:
     subject = "Hello, {{ name }}!"
-    body = "<p>Hi, {{ name }}! Welcome to Polar!</p>"
+    body = "<p>Hi, {{ name }}! Welcome to Payflow!</p>"
 
     rendered_subject, rendered_body = email_renderer.render_from_string(
         subject, body, context={"name": "John"}
@@ -13,4 +13,4 @@ def test_render_from_string() -> None:
 
     assert rendered_subject == "Hello, John!"
     assert rendered_body.startswith("<!DOCTYPE html")
-    assert "<p>Hi, John! Welcome to Polar!</p>" in rendered_body
+    assert "<p>Hi, John! Welcome to Payflow!</p>" in rendered_body

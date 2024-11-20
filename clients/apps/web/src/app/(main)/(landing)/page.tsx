@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 import LandingPage from '../../../components/Landing/LandingPage'
 
 export const metadata: Metadata = {
-  title: 'Polar — The best monetization platform for developers',
-  description: 'The best monetization platform for developers',
+  title: 'Payflow — The best Payment platform for developers',
+  description: 'The best Payment platform for developers',
   keywords:
-    'monetization, merchant of record, saas, digital products, platform, developer, open source, funding, open source, economy',
+    'Payment, merchant of record, saas, digital products, platform, developer, open source, funding, open source, economy',
   openGraph: {
     siteName: 'Polar',
     type: 'website',

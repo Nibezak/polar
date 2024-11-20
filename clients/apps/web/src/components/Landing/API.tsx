@@ -17,7 +17,8 @@ export const API = () => {
           Built for Developers
         </span>
         <h1 className="w-fit max-w-2xl text-pretty text-center text-2xl md:text-4xl md:leading-normal">
-          The fastest way to add SaaS & digital products to your stack
+          The fastest way to add payments to{' '}
+          <i className="font-mono">Your businesses</i>
         </h1>
         <Link href="/docs/guides/nextjs">
           <Button
@@ -34,7 +35,7 @@ export const API = () => {
         <div className="dark:bg-polar-900 flex w-full flex-col gap-y-4 rounded-3xl bg-gray-100 p-8">
           <div className="flex flex-row items-center gap-x-3">
             <CommandLineIcon className="h-5 w-5" />
-            <h1 className="text-xl">npx polar-init</h1>
+            <h1 className="text-xl">npx payflow-init</h1>
           </div>
           <p className="dark:text-polar-400 text-gray-500">
             Bootstrap products, subscriptions, checkouts & webhooks in your

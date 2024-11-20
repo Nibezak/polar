@@ -26,7 +26,7 @@ const MaintainerNavigation = () => {
   return (
     <div className="flex flex-col gap-y-6">
       <NavigationContainer routes={generalRoutesList} />
-      <NavigationContainer title="Funding" routes={fundingRoutes} />
+      <NavigationContainer title="Platform" routes={fundingRoutes} />
       <NavigationContainer title="Community" routes={communityRoutes} />
       <NavigationContainer title="Organization" routes={organizationRoutes} />
     </div>

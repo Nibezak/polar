@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Polar',
     default: 'Polar',
   },
-  description: 'The best monetization platform for developers',
+  description: 'The best payments platform for developers',
   openGraph: {
     images: 'https://polar.sh/assets/brand/polar_og.jpg',
     type: 'website',

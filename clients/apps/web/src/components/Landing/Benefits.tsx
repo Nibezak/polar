@@ -67,7 +67,7 @@ export const Benefits = () => {
             Automated benefits like never before
           </h2>
           <p className="dark:text-polar-400 text-lg text-gray-600">
-            Sell access to your premium apps, services or APIs with ease.
+            Sell access to your Saas apps, services or APIs with ease.
           </p>
           <div className="flex flex-col items-center justify-start gap-4 md:flex-row">
             <GetStartedButton text="Get Started" />
@@ -100,7 +100,7 @@ export const Benefits = () => {
               icon={<Key />}
               link="/docs/benefits/license-keys"
               title="License Keys"
-              description="Sell access to your premium apps, services or APIs"
+              description="Sell access to your Saas apps, services or APIs"
             />
           </div>
 

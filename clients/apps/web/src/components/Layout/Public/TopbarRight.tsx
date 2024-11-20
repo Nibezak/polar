@@ -49,7 +49,7 @@ const TopbarRight = ({
           <GetStartedButton
             className="hidden md:flex"
             size="default"
-            text="Sell with Polar"
+            text="Dashboard & APIs"
             storefrontOrg={storefrontOrg}
           />
 

@@ -27,14 +27,14 @@ const GenericAccountBanner: React.FC<{
           color="default"
           right={
             <Link href={setupLink}>
-              <Button size="sm">Setup</Button>
+              <Button size="sm">Proceed to setup</Button>
             </Link>
           }
         >
           <ExclamationCircleIcon className="h-6 w-6 text-red-500" />
           <span className="text-sm">
-            You need to set up <strong>Stripe</strong> or{' '}
-            <strong>Open Collective</strong> to receive transfers
+            You need to set up a <strong>Bank Account</strong> to receive
+            transactions
           </span>
         </Banner>
       </>
@@ -77,7 +77,7 @@ const GenericAccountBanner: React.FC<{
         <span className="text-sm">
           Continue the setup of your{' '}
           <strong>{ACCOUNT_TYPE_DISPLAY_NAMES[account.account_type]}</strong>{' '}
-          account to receive transfers
+          account to receive transactions
         </span>
       </Banner>
     )

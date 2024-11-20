@@ -1,9 +1,9 @@
 'use client'
 
 import { DashboardBody } from '@/components/Layout/DashboardLayout'
+import FeatureSettings from '@/components/Settings/FeatureSettings'
 import OrganizationAppearanceSettings from '@/components/Settings/OrganizationAppearanceSettings'
 import { Section, SectionDescription } from '@/components/Settings/Section'
-import FeatureSettings from '@/components/Settings/FeatureSettings'
 import { MaintainerOrganizationContext } from '@/providers/maintainerOrganization'
 import { useContext } from 'react'
 
@@ -23,12 +23,12 @@ export default function ClientPage() {
 
         <Section>
           <SectionDescription
-            title="Additional Features"
-            description={`Legacy, experimental or early-access features.`}
+            title="Account Deletion"
+            description={`This section will Terminate your Payflow account.`}
           />
           <FeatureSettings organization={org} />
         </Section>
-      </div>
+      </div>   
     </DashboardBody>
   )
 }

@@ -1,7 +1,6 @@
 import { Hero } from '@/components/Landing/Hero/Hero'
 import { MerchantOfRecord } from '@/components/Landing/MOR'
 import { Monetization } from '@/components/Landing/Monetization'
-import { Testimonials } from '@/components/Landing/Testimonials'
 import { API } from './API'
 import { Benefits } from './Benefits'
 import { Checkout } from './Checkout'
@@ -23,19 +22,8 @@ export const PageContent = () => {
         <Hero />
         <API />
         <Benefits />
-
-        <div className="flex flex-col gap-y-12">
-          <h1 className="text-4xl leading-snug tracking-tight md:text-5xl md:leading-tight">
-            Polar as Merchant of Record.{' '}
-            <span className="dark:text-polar-500 text-gray-400">
-              Leave all tax & VAT headaches to us. Focus on your passion, while
-              we build infrastructure to get you paid.
-            </span>
-          </h1>
-        </div>
-
         <MerchantOfRecord />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Checkout />
         <Monetization />
         <Pricing />

@@ -81,9 +81,9 @@ export const Monetization = () => {
                     <TypewriterText
                       delay={1}
                       texts={[
-                        'polar.checkouts.create({...});',
-                        'polar.products.list({...});',
-                        'polar.benefits.get({...});',
+                        'payflow.checkouts.create({...});',
+                        'payflow.products.list({...});',
+                        'payflow.benefits.get({...});',
                       ]}
                     />
                   </code>
@@ -92,10 +92,10 @@ export const Monetization = () => {
             </div>
             <div className="flex flex-col gap-y-2">
               <h3 className="text-lg font-medium leading-snug md:text-xl">
-                Integrate Polar in seconds
+                Integrate Payflow in seconds
               </h3>
               <p className="dark:text-polar-200 h-full leading-relaxed text-gray-500">
-                Use our SDKs to integrate Polar into your apps and platforms.
+                Use our SDKs to integrate Payflow into your apps and platforms.
                 Webhooks, OAuth, and more.
               </p>
             </div>

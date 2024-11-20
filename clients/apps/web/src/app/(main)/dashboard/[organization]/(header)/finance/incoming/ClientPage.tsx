@@ -121,7 +121,7 @@ export default function ClientPage({
             <p className="dark:text-polar-500 text-sm text-gray-500">
               {params?.get('type') === 'payouts'
                 ? 'Made from your account to your bank account'
-                : 'Made from Polar to your account'}
+                : 'Made from Payflow to your account'}
             </p>
           </div>
 

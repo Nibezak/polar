@@ -32,7 +32,7 @@ class TestRevokeLeaked:
 
         result = await personal_access_token_service.revoke_leaked(
             session,
-            "polar_pat_123",
+            "payflow_pat_123",
             TokenType.personal_access_token,
             notifier="github",
             url="https://github.com",
@@ -55,7 +55,7 @@ class TestRevokeLeaked:
             return_value=email_sender_mock,
         )
 
-        token_hash = get_token_hash("polar_pat_123", secret=settings.SECRET)
+        token_hash = get_token_hash("payflow_pat_123", secret=settings.SECRET)
         personal_access_token = PersonalAccessToken(
             comment="Test",
             token=token_hash,
@@ -67,7 +67,7 @@ class TestRevokeLeaked:
 
         result = await personal_access_token_service.revoke_leaked(
             session,
-            "polar_pat_123",
+            "payflow_pat_123",
             TokenType.personal_access_token,
             notifier="github",
             url="https://github.com",

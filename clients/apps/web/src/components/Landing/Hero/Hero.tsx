@@ -1,9 +1,7 @@
 'use client'
 
 import GetStartedButton from '@/components/Auth/GetStartedButton'
-import { Canvas } from '@react-three/fiber'
 import { useCallback, useMemo, useState } from 'react'
-import { Coins } from './Coins'
 
 export const Hero = () => {
   const [slug, setSlug] = useState('')
@@ -28,16 +26,11 @@ export const Hero = () => {
 
   return (
     <div className="flex w-full flex-col items-center justify-center gap-12 text-center">
-      <Canvas
-        camera={{
-          zoom: 0.8,
-        }}
-      >
-        <Coins />
-      </Canvas>
       <h1 className="max-w-2xl text-pretty text-4xl !leading-tight text-gray-950 md:text-6xl dark:text-white">
-        Sell SaaS and digital products{' '}
-        <span className="dark:text-polar-500 text-gray-400">in minutes</span>
+        <span className="dark:text-polar-500 text-gray-400">
+          Scan, Pay, Go -{' '}
+        </span>
+        Payflow Makes Payments Flow{' '}
       </h1>
       <div className="flex flex-row items-center gap-x-4">
         <div
@@ -45,7 +38,7 @@ export const Hero = () => {
           role="form"
         >
           <div className="flex flex-row items-center gap-x-0.5">
-            <span className="md:text-xl">polar.sh/</span>
+            <span className="md:text-xl">payflow.dev / </span>
             <input
               autoFocus={!isPhone}
               className="dark:placeholder:text-polar-500 w-44 border-none border-transparent bg-transparent p-0 placeholder:text-gray-300 focus:border-transparent focus:ring-0 md:text-xl"
@@ -62,7 +55,7 @@ export const Hero = () => {
             className="dark:bg-polar-800 dark:border-polar-700 shadow-3xl flex flex-row items-center rounded-full border bg-gray-50 px-4 py-2"
             role="form"
           >
-            <span className="md:text-xl">polar.sh/</span>
+            <span className="md:text-xl">payflow.dev/</span>
             <input
               autoFocus={!isPhone}
               className="dark:placeholder:text-polar-500 w-44 border-none border-transparent bg-transparent p-0 placeholder:text-gray-300 focus:border-transparent focus:ring-0 md:text-xl"

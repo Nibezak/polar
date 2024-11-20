@@ -104,7 +104,7 @@ const OrganizationAppearanceSettings: React.FC<
         onSubmit={handleSubmit(onSubmit)}
       >
         <div className="flex flex-col gap-y-2">
-          <FormLabel>Organization Identifier</FormLabel>
+          <FormLabel>Organization Id</FormLabel>
           <FormControl>
             <CopyToClipboardInput value={organization.id} />
           </FormControl>

@@ -286,7 +286,7 @@ const backerRoutesList = (): Route[] => [
   },
   {
     id: 'finance',
-    title: 'Finance',
+    title: 'Account',
     link: `/finance`,
     icon: <AttachMoneyOutlined className="h-5 w-5" fontSize="inherit" />,
     if: true,
@@ -344,7 +344,7 @@ const orgFinanceSubRoutesList = (org: Organization): SubRoute[] => [
 const organizationRoutesList = (org: Organization): Route[] => [
   {
     id: 'finance',
-    title: 'Finance',
+    title: 'Account',
     link: `/dashboard/${org.slug}/finance`,
     icon: <AttachMoneyOutlined className="h-5 w-5" fontSize="inherit" />,
     if: true,
